@@ -1,0 +1,126 @@
+@charset "uft-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{text-decoration: none;}
+/* logo */
+.header{
+    padding: 24px 0 0 16px;
+    height: 68px;
+    a{
+        img{
+            width: 215px;
+            position: absolute;
+            left: 20px;
+            // margin-left: 20px;
+        } 
+    } 
+}
+/*--- main --*/ 
+.main{
+    padding: 30px 36px;
+    height: 460px;
+    .left{
+        float: left;
+        margin-left: 65px;
+    }
+    .right{
+        float: left;
+        width: 440px;
+        margin-left: 250px;
+        padding: 16px 0 0 0;
+        .rightTop{
+            height: 45px;
+            padding: 12px 28px 5px;
+            p{
+                float: left;
+                font-size: 16px;
+                color: #0186d1;
+                cursor: pointer;
+            }
+            span{
+                float: left;
+                font-size: 16px;
+                color: #ccc;
+            }
+            .free{
+                float: right;
+                font-size: 12px;
+                line-height: 30px;
+                color: #666666;
+            }
+        }
+        form{
+            .rightMi{
+                padding: 10px 30px;
+                li{
+                    position: relative;
+                    padding: 10px 0;
+                    height: 38px;
+                    font-size: 12px;
+                    input{
+                    width: 375px;
+                    height: 30px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    border: 1px solid #cccccc;
+                    background-color: #fff;
+                    padding: 2px;
+                    }
+                    img{
+                        width: 70px;
+                        height: 30px;
+                        vertical-align: middle;
+                    }
+                    .code{
+                        width: 150px;
+                    }
+                    i{
+                        position: absolute;
+                        right:10px ;
+                        top: 20px;
+                        color: #999999;
+                    }
+                }
+            }
+        }
+        .pw{
+            float: right;
+            cursor: pointer;
+            font-size: 12px;
+            padding-right: 25px;
+            color: #666666;
+        }
+        button{
+            width: 380px;
+            height: 53px;
+            margin:20px 0 0 30px;
+            background-color: #ca151d;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+        }
+        .lin{
+            text-align: center;
+            padding: 30px;
+            a img{
+                width: 26px;
+                height: 26px;
+                margin: 0 8px;
+            }
+        }
+    }
+}
+/*--- footer --*/ 
+.footer{
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 12px;
+    a{
+        color: #1766dd;
+    }
+}

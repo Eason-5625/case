@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+/* logo */
+.header {
+  padding: 24px 0 0 16px;
+  height: 68px; }
+  .header a img {
+    width: 215px;
+    position: absolute;
+    left: 20px; }
+
+/*--- main --*/
+.main {
+  padding: 30px 36px;
+  height: 460px; }
+  .main .left {
+    float: left;
+    margin-left: 65px; }
+  .main .right {
+    float: left;
+    width: 440px;
+    margin-left: 250px;
+    padding: 16px 0 0 0; }
+    .main .right .rightTop {
+      height: 45px;
+      padding: 12px 28px 5px; }
+      .main .right .rightTop p {
+        float: left;
+        font-size: 16px;
+        color: #0186d1;
+        cursor: pointer; }
+      .main .right .rightTop span {
+        float: left;
+        font-size: 16px;
+        color: #ccc; }
+      .main .right .rightTop .free {
+        float: right;
+        font-size: 12px;
+        line-height: 30px;
+        color: #666666; }
+    .main .right form .rightMi {
+      padding: 10px 30px; }
+      .main .right form .rightMi li {
+        position: relative;
+        padding: 10px 0;
+        height: 38px;
+        font-size: 12px; }
+        .main .right form .rightMi li input {
+          width: 375px;
+          height: 30px;
+          border-radius: 5px;
+          font-size: 12px;
+          border: 1px solid #cccccc;
+          background-color: #fff;
+          padding: 2px; }
+        .main .right form .rightMi li img {
+          width: 70px;
+          height: 30px;
+          vertical-align: middle; }
+        .main .right form .rightMi li .code {
+          width: 150px; }
+        .main .right form .rightMi li i {
+          position: absolute;
+          right: 10px;
+          top: 20px;
+          color: #999999; }
+    .main .right .pw {
+      float: right;
+      cursor: pointer;
+      font-size: 12px;
+      padding-right: 25px;
+      color: #666666; }
+    .main .right button {
+      width: 380px;
+      height: 53px;
+      margin: 20px 0 0 30px;
+      background-color: #ca151d;
+      border: none;
+      cursor: pointer;
+      color: #fff; }
+    .main .right .lin {
+      text-align: center;
+      padding: 30px; }
+      .main .right .lin a img {
+        width: 26px;
+        height: 26px;
+        margin: 0 8px; }
+
+/*--- footer --*/
+.footer {
+  padding-bottom: 35px;
+  text-align: center;
+  font-size: 12px; }
+  .footer a {
+    color: #1766dd; }
